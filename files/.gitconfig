@@ -1,0 +1,13 @@
+[user]
+	email = red@domain.com
+	name = Red User
+[alias]
+	co = checkout
+	up = checkout
+	st = status
+	br = branch
+	last = log -1 HEAD
+        lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+[core]
+	excludesfile = ~/.gitignore
+
